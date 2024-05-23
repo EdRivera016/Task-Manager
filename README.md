@@ -2,7 +2,7 @@
 ![Github license](https://img.shields.io/badge/license-MIT-blue.svg)
 [License](https://choosealicense.com/licenses/MIT/)
 
-## Table Of Contents
+## Table Of Contents  
 - [Task Manager](#task-manager)
   - [Table Of Contents](#table-of-contents)
   - [Description](#description)
@@ -10,7 +10,9 @@
   - [Acceptance criteria](#acceptance-criteria)
   - [Deployed Apllication](#deployed-apllication)
   - [Screenshot](#screenshot)
-  - [Comments](#comments)
+  - [Features](#features)
+  - [Questions](#questions)
+  - [Contributions](#contributions)
 
 
 ## Description
@@ -43,7 +45,26 @@ WHEN I refresh the page
 THEN the saved tasks persist
 
 ## Deployed Apllication
+https://edrivera016.github.io/Task-Manager/
 
 ## Screenshot
+![Showing when tasks are at different due dates](TaskManager(1).png)
+![Tasks after marked done](TaskManager(2).png)
 
-## Comments 
+## Features 
+-Task Management: Create, update, and delete tasks with ease.
+-Task Details: Each task includes a title, due date, and description.
+-Drag-and-Drop Interface: Move tasks between "To Do", "In Progress", and "Done" columns using drag-and-drop functionality.
+-Data Persistence: Tasks and their statuses are stored in localStorage, ensuring they remain intact across browser sessions.
+-Visual Indicators: Highlight tasks that are overdue, due today, or upcoming based on due dates.
+-Responsive Design: Optimized for both desktop and mobile devices.
+-Modal Form for Task Addition: Easily add new tasks through a modal form.
+-jQuery UI Date Picker: Conveniently select due dates with a date picker.
+-Unique Task ID Generation: Automatically generate unique IDs for new tasks.
+-One-Click Task Deletion: Quickly delete tasks with a single click.
+
+## Questions 
+Please send any quesons you may have [here](mailto:edwinrivera016@outlook.com?subject=[Github]%20Dev%20Connect) or visit [github/EdRivera016](https://github.comEdRivera016).
+
+## Contributions
+- Starter code provided by UCF: git@github.com:coding-boot-camp/musical-happiness.git
